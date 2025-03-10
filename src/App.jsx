@@ -2,6 +2,7 @@ import './App.css';
 import Card from './components/Card/Card';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Counter from './components/Component/Components';
 import { data } from './data/Card';
 import { info } from './data/Header';
 import { footers } from './data/Footer';
@@ -9,6 +10,8 @@ import { footers } from './data/Footer';
 function App() {
 	return (
 		<>
+			<Counter />
+
 			<div>
 				{data.map((card) => {
 					return <Card key={card.id} title={card.title} />;
