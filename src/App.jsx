@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import Counter from './components/Component/Components';
 import Text from './components/Text/Text';
 import Input from './components/Component/Input';
+import TaskList from './components/Component/Add';
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<Counter />
 			<Text />
 			<Input />
+			<TaskList />
 		</>
 	);
 }
