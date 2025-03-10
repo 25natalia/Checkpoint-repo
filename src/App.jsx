@@ -6,6 +6,7 @@ import Counter from './components/Component/Components';
 import Text from './components/Text/Text';
 import Input from './components/Component/Input';
 import TaskList from './components/Component/Add';
+import DataFetchingComponent from './components/useEffect/ejercicio1';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<Text />
 			<Input />
 			<TaskList />
+			<DataFetchingComponent />
 		</>
 	);
 }
