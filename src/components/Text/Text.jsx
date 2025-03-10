@@ -1,18 +1,18 @@
 import { useState } from 'react';
 
-const Text = () => {
+const Handler = () => {
 	const [show, setShow] = useState(true);
 
-	const handlerShow = () => {
+	const button = () => {
 		setShow(!show);
 	};
 
 	return (
 		<>
-			{show === true && <h1>UseState</h1>}
-			<button onClick={handlerShow}>Show/Hide</button>
+			{show === true && <h1>Apareci</h1>}
+			<button onClick={button}>Hide/Show</button>
 		</>
 	);
 };
 
-export default Text;
+export default Handler;
